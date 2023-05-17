@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="absolute bottom-0 bg-cyan-400 w-full flex flex-col justify-center items-center gap-5 h-60 py-10">
+    <footer className="bg-cyan-400 w-full flex flex-col justify-center items-center gap-5 h-60 py-10">
       <svg width="124" height="24" xmlns="http://www.w3.org/2000/svg">
         <path
           className="fill-cyan-200"

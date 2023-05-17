@@ -12,9 +12,14 @@ module.exports = {
       black: 900,
     },
     extend: {
+      letterSpacing: {
+        veryWide: '0.3em',
+      },
       colors: {
+        'red-100': 'hsla(var(--red-200),0.3)',
         'red-200': 'hsl(var(--red-200))',
         'cyan-100': 'hsl(var(--cyan-100))',
+        'yellow-100': 'hsla(var(--yellow-200),0.3)',
         'yellow-200': 'hsl(var(--yellow-200))',
         'cyan-200': 'hsl(var(--cyan-200))',
         'blue-400': 'hsl(var(--blue-400))',
