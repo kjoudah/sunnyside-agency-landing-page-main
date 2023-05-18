@@ -76,21 +76,11 @@ h6 {
   --blue-400: 198, 62%, 26%;
   --cyan-400: 168, 34%, 41%;
 
+  --blue-100: 200, 99%, 71%;
   --blue-600: 212, 27%, 19%;
   --blue-800: 213, 9%, 39%;
   --blue-700: 232, 10%, 55%;
   --blue-500: 210, 4%, 67%;
-
-  /* --red-200: hsl(7, 99%, 70%);
-  --yellow-200: hsl(51, 100%, 49%);
-  --cyan-200: hsl(167, 40%, 24%);
-  --blue-400: hsl(198, 62%, 26%);
-  --cyan-400: hsl(168, 34%, 41%);
-
-  --blue-600: hsl(212, 27%, 19%);
-  --blue-800: hsl(213, 9%, 39%);
-  --blue-700: hsl(232, 10%, 55%);
-  --blue-500: hsl(210, 4%, 67%); */
 }
 
 @tailwind base;
@@ -99,11 +89,14 @@ h6 {
 
 @layer utilities {
   .triangle {
-    clip-path: polygon(100% 100%, 100% 0, 0 100%, 100% 100%);
-    width: 50%;
-    height: 100%;
-    right: 0;
-    bottom: 15%;
+    content: '';
     position: absolute;
+    display: block;
+    top: -8%;
+    right: 0;
+    width: 7%;
+    height: 20px;
+    clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+    background: white;
   }
 }

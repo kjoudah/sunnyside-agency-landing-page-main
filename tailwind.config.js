@@ -22,6 +22,7 @@ module.exports = {
         'yellow-100': 'hsla(var(--yellow-200),0.3)',
         'yellow-200': 'hsl(var(--yellow-200))',
         'cyan-200': 'hsl(var(--cyan-200))',
+        'blue-100': 'hsl(var(--blue-100))',
         'blue-400': 'hsl(var(--blue-400))',
         'cyan-400': 'hsl(var(--cyan-400))',
         'blue-600': 'hsl(var(--blue-600))',
