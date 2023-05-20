@@ -12,7 +12,7 @@ export default function Header() {
         {expanded && (
           <div
             onClick={() => setExpanded(false)}
-            className="inset-0 absolute w-[100vw] h-[100vh]"
+            className="inset-0 absolute w-[100vw] h-[100vh] md:hidden"
           >
             {' '}
           </div>
@@ -20,11 +20,11 @@ export default function Header() {
         <ul
           aria-expanded={String(expanded)}
           data-expanded={String(expanded)}
-          className="fixed flex flex-col text-xl gap-6 justify-center items-center data-[expanded=true]:bg-white data-[expanded=true]:h-[250px] data-[expanded=true]:w-[85%] data-[expanded=true]:left-1/2 data-[expanded=true]:-translate-x-1/2 data-[expanded=true]:top-20 text-blue-500 data-[expanded=true]:before:triangle md:hidden"
+          className="fixed flex flex-col text-lg gap-6 justify-center items-center data-[expanded=true]:bg-white data-[expanded=true]:h-[250px] data-[expanded=true]:w-[85%] data-[expanded=true]:left-1/2 data-[expanded=true]:-translate-x-1/2 data-[expanded=true]:top-20 text-blue-500 data-[expanded=true]:before:triangle md:hidden"
         >
           <li>
             <a
-              className="py-2 px-6 hover:bg-yellow-200 hover:text-black md:hover:bg-slate-400 hover:rounded-full"
+              className="py-2 px-6 hover:bg-yellow-200 hover:text-black md:hover:bg-slate-400 hover:rounded-full hover:uppercase hover:font-serif"
               href="#"
             >
               About
@@ -32,7 +32,7 @@ export default function Header() {
           </li>
           <li>
             <a
-              className="py-2 px-6  hover:bg-yellow-200 hover:text-black md:hover:bg-blue-500 hover:rounded-full"
+              className="py-2 px-6  hover:bg-yellow-200 hover:text-black md:hover:bg-blue-500 hover:rounded-full hover:uppercase hover:font-serif"
               href="#"
             >
               Services
@@ -40,7 +40,7 @@ export default function Header() {
           </li>
           <li>
             <a
-              className="py-2 px-6  hover:bg-yellow-200 hover:text-black md:hover:bg-blue-500 hover:rounded-full"
+              className="py-2 px-6  hover:bg-yellow-200 hover:text-black md:hover:bg-blue-500 hover:rounded-full hover:uppercase hover:font-serif"
               href="#"
             >
               Projects
@@ -48,7 +48,7 @@ export default function Header() {
           </li>
           <li>
             <a
-              className="py-2 px-6  hover:bg-yellow-200 hover:text-black md:hover:bg-blue-500 hover:rounded-full"
+              className="py-2 px-6  hover:bg-yellow-200 hover:text-black md:hover:bg-blue-500 hover:rounded-full hover:uppercase hover:font-serif"
               href="#"
             >
               Contact
@@ -61,7 +61,7 @@ export default function Header() {
 
   return (
     <header>
-      <nav className="fixed top-0 left-0 w-full bg-cyan-100 flex flex-row justify-between items-center px-4">
+      <nav className="sticky top-0 left-0 w-full bg-cyan-100 flex flex-row justify-between items-center px-4">
         <div>
           <a href="#">
             <img className="m-6" src={logo} alt="logo"></img>

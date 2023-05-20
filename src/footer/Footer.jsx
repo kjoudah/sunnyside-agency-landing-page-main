@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-cyan-400 w-full flex flex-col justify-center items-center gap-5 h-60 py-10">
+    <footer className="bg-cyan-150 w-full flex flex-col justify-center items-center gap-8 py-16">
       <svg width="124" height="24" xmlns="http://www.w3.org/2000/svg">
         <path
           className="fill-cyan-200"
@@ -8,7 +8,7 @@ export default function Footer() {
           fill-rule="nonzero"
         />
       </svg>
-      <div>
+      <div className="text-cyan-200">
         <ul className="flex flex-row gap-12 text-lg">
           <li>
             <a className="hover:text-white" href="#">
@@ -27,7 +27,7 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <div class="flex mt-4 space-x-6 sm:justify-center">
+      <div class="flex mt-4 space-x-6 sm:justify-center pt-4">
         <a href="#" className="text-cyan-200 hover:text-white">
           <svg
             class="w-6 h-6"
@@ -70,19 +70,14 @@ export default function Footer() {
           <span class="sr-only">Twitter page</span>
         </a>
         <a href="#" className="text-cyan-200 hover:text-white">
-          <svg
-            class="w-6 h-6"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-          >
+          <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
             <path
-              fill-rule="evenodd"
-              d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
-              clip-rule="evenodd"
+              d="M10 0C4.477 0 0 4.477 0 10c0 4.237 2.636 7.855 6.356 9.312-.088-.791-.167-2.005.035-2.868.181-.78 1.172-4.97 1.172-4.97s-.299-.6-.299-1.486c0-1.39.806-2.428 1.81-2.428.852 0 1.264.64 1.264 1.408 0 .858-.546 2.14-.828 3.33-.236.995.5 1.807 1.48 1.807 1.778 0 3.144-1.874 3.144-4.58 0-2.393-1.72-4.068-4.176-4.068-2.845 0-4.516 2.135-4.516 4.34 0 .859.331 1.781.745 2.281a.3.3 0 01.069.288l-.278 1.133c-.044.183-.145.223-.335.134-1.249-.581-2.03-2.407-2.03-3.874 0-3.154 2.292-6.052 6.608-6.052 3.469 0 6.165 2.473 6.165 5.776 0 3.447-2.173 6.22-5.19 6.22-1.013 0-1.965-.525-2.291-1.148l-.623 2.378c-.226.869-.835 1.958-1.244 2.621.937.29 1.931.446 2.962.446 5.523 0 10-4.477 10-10S15.523 0 10 0z"
+              fill="currentColor"
+              fill-rule="nonzero"
             />
           </svg>
-          <span class="sr-only">GitHub account</span>
+          <span class="sr-only">Pinterest Page</span>
         </a>
       </div>
     </footer>
