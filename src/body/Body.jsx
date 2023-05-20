@@ -20,7 +20,7 @@ import sugarCubesDesktop from './../images/desktop/image-gallery-sugarcubes.jpg'
 export default function Body() {
   return (
     <main className="grid grid-cols-1 md:grid-cols-2 lg:text-[125%] xl:text-[150%]">
-      <div className="order-1 pt-10 bg-[url(/src/images/mobile/image-header.jpg)] tracking-veryWide h-[400px] bg-bottom bg-cover bg-no-repeat flex flex-col items-center text-center gap-10 md:col-span-2 md:bg-[url(/src/images/desktop/image-header.jpg)]">
+      <div className="order-1 pt-10 bg-[url(/src/images/mobile/image-header.jpg)] tracking-veryWide h-[400px] bg-bottom bg-cover bg-no-repeat flex flex-col items-center text-center gap-10 md:col-span-2 md:bg-[url(/src/images/desktop/image-header.jpg)] lg:h-[600px] xl:h-[800px]">
         <h1 className="text-4xl uppercase font-serif text-white">
           We are creatives
         </h1>

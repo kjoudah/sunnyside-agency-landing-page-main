@@ -1274,6 +1274,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:h-\[600px\] {
+    height: 600px;
+  }
+
   .lg\:p-24 {
     padding: 6rem;
   }
@@ -1305,6 +1309,10 @@ video {
 @media (min-width: 1280px) {
   .xl\:h-\[900px\] {
     height: 900px;
+  }
+
+  .xl\:h-\[800px\] {
+    height: 800px;
   }
 
   .xl\:p-24 {
